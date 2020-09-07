@@ -33,9 +33,9 @@ SECRET_KEY = get_env_variable('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['django-crm-dio.herokuapp.com']
+ALLOWED_HOSTS = ['django-crm-dio.herokuapp.com','127.0.0.1']
 
 
 # Application definition
